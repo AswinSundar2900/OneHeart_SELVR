@@ -292,6 +292,23 @@ GS.dataCache['0CF0D5B896AAB440183B098418B871C35218'] = {
                 "indent": 0
             },
             {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 132,
+                    "state": 1,
+                    "inputSession": 0,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "F6F1904D10EFF2420468BE47286C71FE8F50",
+                "indent": 0
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {

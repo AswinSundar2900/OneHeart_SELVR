@@ -243,218 +243,23 @@ GS.dataCache['C113125961D73142BE3ACD71A4515A952842'] = {
                 "indent": 0
             },
             {
-                "id": "vn.ChangeBackground",
+                "id": "vn.ChangeScene",
                 "params": {
-                    "viewport": {
-                        "type": "scene"
+                    "scene": {
+                        "uid": "498EBD324C094346782A35301DFB20963F93",
+                        "name": "Scene 1 - Choices"
                     },
-                    "graphic": {
-                        "name": "image4.png",
-                        "folderPath": "Graphics/Backgrounds/Scene 1",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
-                    },
-                    "layer": 0,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "loopVertical": 0,
-                    "loopHorizontal": 0,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "F095F6861065E740594A44C843EDA4BDCF66",
-                "indent": 0
-            },
-            {
-                "id": "vn.Choice",
-                "params": {
-                    "action": {
-                        "type": 3,
-                        "bindValue": 0,
-                        "bindValueVariable": {
-                            "scope": 0,
-                            "index": 0
-                        },
-                        "commonEventId": 0,
-                        "label": "",
-                        "switch": {
-                            "scope": 1,
-                            "index": 0
-                        },
-                        "scene": {
-                            "uid": "DA0F211F6A92F6475999FAD391C9868AFCD3",
-                            "name": "Scene 2A"
-                        }
-                    },
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Speak up and say, \"I was invited to sit here.\""
-                    },
-                    "label": "",
-                    "enabled": 1,
-                    "positionType": 1,
-                    "box": {
-                        "x": 570,
-                        "y": 127,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 691,
-                            "height": 118
-                        }
-                    },
-                    "defaultChoice": 0,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "uid": "1E8ABCFF2B95204FD669C6E1A567919D1679",
-                "indent": 0
-            },
-            {
-                "id": "vn.Choice",
-                "params": {
-                    "action": {
-                        "type": 3,
-                        "bindValue": 0,
-                        "bindValueVariable": {
-                            "scope": 0,
-                            "index": 0
-                        },
-                        "commonEventId": 0,
-                        "label": "",
-                        "switch": {
-                            "scope": 1,
-                            "index": 0
-                        },
-                        "scene": {
-                            "uid": "8AC1CD145B46D2436878F6A7653BB154930B",
-                            "name": "Scene 2B"
-                        }
-                    },
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Stay silent and look to the duckings for support."
-                    },
-                    "label": "",
-                    "enabled": 1,
-                    "positionType": 1,
-                    "box": {
-                        "x": 568,
-                        "y": 272,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 696,
-                            "height": 119
-                        }
-                    },
-                    "defaultChoice": 0,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "uid": "33E3E07768FC03471F59B358DB85DE515675",
-                "indent": 0
-            },
-            {
-                "id": "vn.Choice",
-                "params": {
-                    "action": {
-                        "type": 3,
-                        "bindValue": 0,
-                        "bindValueVariable": {
-                            "scope": 0,
-                            "index": 0
-                        },
-                        "commonEventId": 0,
-                        "label": "",
-                        "switch": {
-                            "scope": 1,
-                            "index": 0
-                        },
-                        "scene": {
-                            "uid": "06FA1BD7722E32464A4951D3157736FF8AA6",
-                            "name": "Scene 2C"
-                        }
-                    },
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Walk away and sit somewhere else."
-                    },
-                    "label": "",
-                    "enabled": 1,
-                    "positionType": 1,
-                    "box": {
-                        "x": 568,
-                        "y": 418,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 695,
-                            "height": 119
-                        }
-                    },
-                    "defaultChoice": 0,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "uid": "BEF431DA80565542E32B0E72B1C11BB0952F",
-                "indent": 0
-            },
-            {
-                "id": "vn.ShowChoices",
-                "params": {},
-                "uid": "388B3C4C26003147FC6AAF01E1E56A7E572C",
-                "indent": 0
+                "uid": "4A4BB13C6D2A034377094A96AF81A9C54222",
+                "indent": 0,
+                "expanded": false
             }
         ],
         "livePreviewDisabled": false,

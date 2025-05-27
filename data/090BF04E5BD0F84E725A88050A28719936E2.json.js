@@ -1,5 +1,5 @@
-GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
-    "uid": "DA0F211F6A92F6475999FAD391C9868AFCD3",
+GS.dataCache['090BF04E5BD0F84E725A88050A28719936E2'] = {
+    "uid": "090BF04E5BD0F84E725A88050A28719936E2",
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
@@ -7,7 +7,7 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
         "type": "vn.scene",
         "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
         "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-        "order": 2,
+        "order": 3,
         "localizableStrings": {},
         "commands": [
             {
@@ -41,7 +41,7 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "11128DA644A7434B5678E0990F17B896BE1D",
+                "uid": "3077BC887FADB74CA688C4E38128D8D8B9E2",
                 "indent": 0
             },
             {
@@ -90,7 +90,7 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "1283CD0B7C8A884798297804ADD89986E10C",
+                "uid": "7F06CC3F4FD48440F848878475C3D0BFE8D3",
                 "indent": 0
             },
             {
@@ -107,7 +107,7 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
                         }
                     }
                 },
-                "uid": "DF55EB9A78B1E647CF881566E5759AD64CF7",
+                "uid": "FEED795950A600425F6BED93AEB9BFE287B9",
                 "indent": 0
             },
             {
@@ -156,7 +156,7 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "8795076336798941935AA814E065CD698B10",
+                "uid": "2EE401DC4315A2427D2896229CA5B617D503",
                 "indent": 0
             },
             {
@@ -173,7 +173,7 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
                         }
                     }
                 },
-                "uid": "8561EA003E3452434C39FB668163D8A350C3",
+                "uid": "13B1FEF68448914CE128AEA8A97254D8D2B9",
                 "indent": 0
             },
             {
@@ -222,7 +222,7 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "70E8DCA9142D43488D2B73C8AB7F9FBCE3BD",
+                "uid": "518E261F68CAD7439048AF03CDCADF55BDB5",
                 "indent": 0
             },
             {
@@ -239,176 +239,27 @@ GS.dataCache['DA0F211F6A92F6475999FAD391C9868AFCD3'] = {
                         }
                     }
                 },
-                "uid": "25AE58601E59844BFB69F464F594D5C63305",
+                "uid": "B597EF5F82596642B909E607A989927BD4F9",
                 "indent": 0
             },
             {
-                "id": "vn.ChangeBackground",
+                "id": "vn.ChangeScene",
                 "params": {
-                    "viewport": {
-                        "type": "scene"
+                    "scene": {
+                        "uid": "2656B2BD872E45452628F1B3E03C6140AC2A",
+                        "name": "Scene 2A - Choices"
                     },
-                    "graphic": {
-                        "name": "image8.png",
-                        "folderPath": "Graphics/Backgrounds/Scene 2A",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
-                    },
-                    "layer": 0,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "loopVertical": 0,
-                    "loopHorizontal": 0,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "DED3C5AB6CFFC744433A6B820E9B6286D4E9",
-                "indent": 0
-            },
-            {
-                "id": "vn.Choice",
-                "params": {
-                    "action": {
-                        "type": 3,
-                        "bindValue": 0,
-                        "bindValueVariable": {
-                            "scope": 0,
-                            "index": 0
-                        },
-                        "commonEventId": 0,
-                        "label": "",
-                        "switch": {
-                            "scope": 1,
-                            "index": 0
-                        },
-                        "scene": {
-                            "uid": "F11C9C3C3F7D414D5259F0D37C814CC671F5",
-                            "name": "Scene 4"
-                        }
-                    },
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Engage in conversation with the ducklings."
-                    },
-                    "label": "",
-                    "enabled": 1,
-                    "positionType": 1,
-                    "box": {
-                        "x": 567,
-                        "y": 175,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 698,
-                            "height": 131
-                        }
-                    },
-                    "defaultChoice": 0,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "uid": "FF0C1AF90D93B346CD78F9E3C253CCB59078",
-                "indent": 0
-            },
-            {
-                "id": "vn.Choice",
-                "params": {
-                    "action": {
-                        "type": 3,
-                        "bindValue": 0,
-                        "bindValueVariable": {
-                            "scope": 0,
-                            "index": 0
-                        },
-                        "commonEventId": 0,
-                        "label": "",
-                        "switch": {
-                            "scope": 1,
-                            "index": 0
-                        },
-                        "scene": {
-                            "uid": "369AE0414741C345E138E04636A751526E6E",
-                            "name": "Scene 5 Neutral Ending"
-                        }
-                    },
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Stay quiet and focus on eating."
-                    },
-                    "label": "",
-                    "enabled": 1,
-                    "positionType": 1,
-                    "box": {
-                        "x": 568,
-                        "y": 324,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {
-                            "x": 567,
-                            "y": 175,
-                            "width": 698,
-                            "height": 131,
-                            "zoom": 1,
-                            "angle": 0
-                        },
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 698,
-                            "height": 135
-                        }
-                    },
-                    "defaultChoice": 0,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "uid": "317430F03CFC6343BC6A5DA07A5E748081D8",
-                "indent": 0
-            },
-            {
-                "id": "vn.ShowChoices",
-                "params": {},
-                "uid": "C5876A046D62C949705AF499C0C33145452B",
-                "indent": 0
+                "uid": "B46487FE37F183433969A233A76A7E66E66C",
+                "indent": 0,
+                "expanded": false
             }
         ],
         "livePreviewDisabled": false,

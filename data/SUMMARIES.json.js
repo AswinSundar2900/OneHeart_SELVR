@@ -5535,22 +5535,13 @@ GS.dataCache['SUMMARIES'] = {
                 "order": 1
             }
         },
-        "DA0F211F6A92F6475999FAD391C9868AFCD3": {
-            "items": {
-                "name": "Scene 2A",
-                "type": "vn.scene",
-                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 2
-            }
-        },
         "8AC1CD145B46D2436878F6A7653BB154930B": {
             "items": {
                 "name": "Scene 2B",
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 3
+                "order": 6
             }
         },
         "06FA1BD7722E32464A4951D3157736FF8AA6": {
@@ -5559,7 +5550,7 @@ GS.dataCache['SUMMARIES'] = {
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 4
+                "order": 8
             }
         },
         "FDA0ED9B15FD5445F08AAB077F1E3C19F870": {
@@ -5568,7 +5559,7 @@ GS.dataCache['SUMMARIES'] = {
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 5
+                "order": 10
             }
         },
         "07A7E2F73699B444B66BACC3A35C8B77222F": {
@@ -5577,7 +5568,7 @@ GS.dataCache['SUMMARIES'] = {
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 6
+                "order": 12
             }
         },
         "F11C9C3C3F7D414D5259F0D37C814CC671F5": {
@@ -5586,7 +5577,7 @@ GS.dataCache['SUMMARIES'] = {
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 7
+                "order": 14
             }
         },
         "369AE0414741C345E138E04636A751526E6E": {
@@ -5595,7 +5586,7 @@ GS.dataCache['SUMMARIES'] = {
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 8
+                "order": 15
             }
         },
         "C0E23D4E357ED24102599F95A0C0B194769A": {
@@ -5604,7 +5595,7 @@ GS.dataCache['SUMMARIES'] = {
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 9
+                "order": 16
             }
         },
         "4F2B989B9694C741493B6DA40EC94FF93F27": {
@@ -5613,7 +5604,70 @@ GS.dataCache['SUMMARIES'] = {
                 "type": "vn.scene",
                 "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
                 "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-                "order": 10
+                "order": 17
+            }
+        },
+        "090BF04E5BD0F84E725A88050A28719936E2": {
+            "items": {
+                "name": "Scene 2A",
+                "type": "vn.scene",
+                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "order": 3
+            }
+        },
+        "498EBD324C094346782A35301DFB20963F93": {
+            "items": {
+                "name": "Scene 1 - Choices",
+                "type": "vn.scene",
+                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "order": 2
+            }
+        },
+        "2656B2BD872E45452628F1B3E03C6140AC2A": {
+            "items": {
+                "name": "Scene 2A - Choices",
+                "type": "vn.scene",
+                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "order": 4
+            }
+        },
+        "91A93F543661534E9678FEE28885EFB73DE4": {
+            "items": {
+                "name": "Scene 2B - Choices",
+                "type": "vn.scene",
+                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "order": 7
+            }
+        },
+        "AE0399D872A7E848F0499D66F724024E31D5": {
+            "items": {
+                "name": "Scene 2C - Choices",
+                "type": "vn.scene",
+                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "order": 9
+            }
+        },
+        "9EE458B96F7F59436E491F16663F7706576A": {
+            "items": {
+                "name": "Scene 3A - Choices",
+                "type": "vn.scene",
+                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "order": 11
+            }
+        },
+        "12B9CAE52BFDD34056588AF62D77D7605B4A": {
+            "items": {
+                "name": "Scene 3B - Choices",
+                "type": "vn.scene",
+                "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
+                "order": 13
             }
         }
     }

@@ -1,14 +1,13 @@
-GS.dataCache['06FA1BD7722E32464A4951D3157736FF8AA6'] = {
-    "uid": "06FA1BD7722E32464A4951D3157736FF8AA6",
+GS.dataCache['AE0399D872A7E848F0499D66F724024E31D5'] = {
+    "uid": "AE0399D872A7E848F0499D66F724024E31D5",
     "isLoaded": true,
-    "lastModificationTime": 0,
+    "lastModificationTime": null,
     "items": {
-        "name": "Scene 2C",
         "type": "vn.scene",
+        "name": "Scene 2C - Choices",
         "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
-        "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-        "order": 8,
         "localizableStrings": {},
+        "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -41,7 +40,7 @@ GS.dataCache['06FA1BD7722E32464A4951D3157736FF8AA6'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "90B4221521114347AE89F588A6D486D2CE39",
+                "uid": "33784F214A90A94F1D38AC70B4B9289D2530",
                 "indent": 0
             },
             {
@@ -51,7 +50,7 @@ GS.dataCache['06FA1BD7722E32464A4951D3157736FF8AA6'] = {
                         "type": "scene"
                     },
                     "graphic": {
-                        "name": "image12.png",
+                        "name": "image14.png",
                         "folderPath": "Graphics/Backgrounds/Scene 2C",
                         "hue": 0,
                         "opacity": 255,
@@ -90,113 +89,131 @@ GS.dataCache['06FA1BD7722E32464A4951D3157736FF8AA6'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "969BFD673DBD6745A369DC16D34A913ED7A1",
+                "uid": "717907397036844BA01975D582325F8D2C3D",
                 "indent": 0
             },
             {
-                "id": "gs.WaitForInput",
+                "id": "vn.Choice",
                 "params": {
-                    "key": 132,
-                    "state": 1,
-                    "inputSession": 0,
                     "action": {
-                        "type": 0,
-                        "data": {
-                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
-                            "commonEventId": 0
+                        "type": 3,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": {
+                            "uid": "FDA0ED9B15FD5445F08AAB077F1E3C19F870",
+                            "name": "Scene 3A"
                         }
-                    }
-                },
-                "uid": "3A5D280644715845B93B4E1149052BBA99A9",
-                "indent": 0
-            },
-            {
-                "id": "vn.ChangeBackground",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
                     },
-                    "graphic": {
-                        "name": "image13.png",
-                        "folderPath": "Graphics/Backgrounds/Scene 2C",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Seek advice from Coach Owl."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 550,
+                        "y": 170,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
                             "red": 0,
                             "green": 0,
                             "blue": 0,
-                            "grey": 0
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 698,
+                            "height": 131
                         }
                     },
-                    "layer": 0,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "loopVertical": 0,
-                    "loopHorizontal": 0,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    },
+                    "defaultChoice": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "58F266346B1D544CCD6BC700CD87AD9AA51C",
+                "uid": "574852A15830804DEC8A82862719DB76D198",
                 "indent": 0
             },
             {
-                "id": "gs.WaitForInput",
+                "id": "vn.Choice",
                 "params": {
-                    "key": 132,
-                    "state": 1,
-                    "inputSession": 0,
                     "action": {
-                        "type": 0,
-                        "data": {
-                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
-                            "commonEventId": 0
+                        "type": 3,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": {
+                            "uid": "C0E23D4E357ED24102599F95A0C0B194769A",
+                            "name": "Scene 5 Retry Ending"
                         }
-                    }
-                },
-                "uid": "ED1CA25017580640B07B3E136A3950696A21",
-                "indent": 0
-            },
-            {
-                "id": "vn.ChangeScene",
-                "params": {
-                    "scene": {
-                        "uid": "AE0399D872A7E848F0499D66F724024E31D5",
-                        "name": "Scene 2C - Choices"
                     },
-                    "savePrevious": 0,
-                    "erasePictures": 0,
-                    "eraseTexts": 0,
-                    "eraseVideos": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Finish lunch alone and leave quietly."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 549,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 567,
+                            "y": 175,
+                            "width": 698,
+                            "height": 131,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 698,
+                            "height": 135
+                        }
+                    },
+                    "defaultChoice": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "54C631AF7B78A84ED328FB14489B2B084C5D",
-                "indent": 0,
-                "expanded": false
+                "uid": "CCBFADA7512486424A2976C618868137F20C",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "1115F7DD5D62864DDC6886D94FA53ABFBFE4",
+                "indent": 0
             }
         ],
         "livePreviewDisabled": false,
+        "order": 9,
         "booleanVariables": [
             {
                 "name": "",
@@ -209,6 +226,7 @@ GS.dataCache['06FA1BD7722E32464A4951D3157736FF8AA6'] = {
         "name",
         "type",
         "parentId",
+        "o",
         "chapterUid",
         "order"
     ],

@@ -1,14 +1,13 @@
-GS.dataCache['8AC1CD145B46D2436878F6A7653BB154930B'] = {
-    "uid": "8AC1CD145B46D2436878F6A7653BB154930B",
+GS.dataCache['12B9CAE52BFDD34056588AF62D77D7605B4A'] = {
+    "uid": "12B9CAE52BFDD34056588AF62D77D7605B4A",
     "isLoaded": true,
-    "lastModificationTime": 0,
+    "lastModificationTime": null,
     "items": {
-        "name": "Scene 2B",
         "type": "vn.scene",
+        "name": "Scene 3B - Choices",
         "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
-        "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-        "order": 6,
         "localizableStrings": {},
+        "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -41,7 +40,7 @@ GS.dataCache['8AC1CD145B46D2436878F6A7653BB154930B'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "8C1874AB6705844CAA7B5722747B09F02DD5",
+                "uid": "37434ECE14C5C54D570B3ED904007636BC6C",
                 "indent": 0
             },
             {
@@ -51,8 +50,8 @@ GS.dataCache['8AC1CD145B46D2436878F6A7653BB154930B'] = {
                         "type": "scene"
                     },
                     "graphic": {
-                        "name": "image9.png",
-                        "folderPath": "Graphics/Backgrounds/Scene 2B",
+                        "name": "image4.png",
+                        "folderPath": "Graphics/Backgrounds/Scene 3B",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -90,113 +89,124 @@ GS.dataCache['8AC1CD145B46D2436878F6A7653BB154930B'] = {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "718E2877765B374EE85A97C54ACB58B1B58F",
+                "uid": "ADC9FFB37EFEA24E11491B642DEA89089ABF",
                 "indent": 0
             },
             {
-                "id": "gs.WaitForInput",
+                "id": "vn.Choice",
                 "params": {
-                    "key": 132,
-                    "state": 1,
-                    "inputSession": 0,
                     "action": {
-                        "type": 0,
-                        "data": {
-                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
-                            "commonEventId": 0
+                        "type": 3,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": {
+                            "uid": "F11C9C3C3F7D414D5259F0D37C814CC671F5",
+                            "name": "Scene 4"
                         }
-                    }
-                },
-                "uid": "9631CD8A3461B1418619DD81B16292BF202D",
-                "indent": 0
-            },
-            {
-                "id": "vn.ChangeBackground",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
                     },
-                    "graphic": {
-                        "name": "image10.png",
-                        "folderPath": "Graphics/Backgrounds/Scene 2B",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Ask questions to get know the ducklings better."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 570,
+                        "y": 169,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
                             "red": 0,
                             "green": 0,
                             "blue": 0,
-                            "grey": 0
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 697,
+                            "height": 133
                         }
                     },
-                    "layer": 0,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "loopVertical": 0,
-                    "loopHorizontal": 0,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    },
+                    "defaultChoice": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "BDC32EAA1E594042B52A3C13B7EEE9156AAF",
+                "uid": "E6FE8A46921F654055387B7735B060742BD5",
                 "indent": 0
             },
             {
-                "id": "gs.WaitForInput",
+                "id": "vn.Choice",
                 "params": {
-                    "key": 132,
-                    "state": 1,
-                    "inputSession": 0,
                     "action": {
-                        "type": 0,
-                        "data": {
-                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
-                            "commonEventId": 0
+                        "type": 3,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": {
+                            "uid": "369AE0414741C345E138E04636A751526E6E",
+                            "name": "Scene 5 Neutral Ending"
                         }
-                    }
-                },
-                "uid": "DEFC55C888A7E34AD07837255119488D806D",
-                "indent": 0
-            },
-            {
-                "id": "vn.ChangeScene",
-                "params": {
-                    "scene": {
-                        "uid": "91A93F543661534E9678FEE28885EFB73DE4",
-                        "name": "Scene 2B - Choices"
                     },
-                    "savePrevious": 0,
-                    "erasePictures": 0,
-                    "eraseTexts": 0,
-                    "eraseVideos": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Stay quiet and let the conversation flow naturally."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 569,
+                        "y": 323,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 698,
+                            "height": 135
+                        }
+                    },
+                    "defaultChoice": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "D4332D2C23E4A84F6E6B26D331BBEF078D22",
-                "indent": 0,
-                "expanded": false
+                "uid": "B22D232967507746A76B0A108E36241B0403",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "DD45734D61AEF548E26965052EC424E81934",
+                "indent": 0
             }
         ],
         "livePreviewDisabled": false,
+        "order": 13,
         "booleanVariables": [
             {
                 "name": "",
@@ -209,6 +219,7 @@ GS.dataCache['8AC1CD145B46D2436878F6A7653BB154930B'] = {
         "name",
         "type",
         "parentId",
+        "o",
         "chapterUid",
         "order"
     ],

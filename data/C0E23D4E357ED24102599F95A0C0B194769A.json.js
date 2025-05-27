@@ -7,7 +7,7 @@ GS.dataCache['C0E23D4E357ED24102599F95A0C0B194769A'] = {
         "type": "vn.scene",
         "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
         "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-        "order": 9,
+        "order": 16,
         "localizableStrings": {},
         "commands": [
             {

@@ -7,7 +7,7 @@ GS.dataCache['07A7E2F73699B444B66BACC3A35C8B77222F'] = {
         "type": "vn.scene",
         "parentId": "B87801FC0A24214FB509DEE7D367F66DB429",
         "chapterUid": "B87801FC0A24214FB509DEE7D367F66DB429",
-        "order": 6,
+        "order": 12,
         "localizableStrings": {},
         "commands": [
             {
@@ -243,165 +243,23 @@ GS.dataCache['07A7E2F73699B444B66BACC3A35C8B77222F'] = {
                 "indent": 0
             },
             {
-                "id": "vn.ChangeBackground",
+                "id": "vn.ChangeScene",
                 "params": {
-                    "viewport": {
-                        "type": "scene"
+                    "scene": {
+                        "uid": "12B9CAE52BFDD34056588AF62D77D7605B4A",
+                        "name": "Scene 3B - Choices"
                     },
-                    "graphic": {
-                        "name": "image4.png",
-                        "folderPath": "Graphics/Backgrounds/Scene 3B",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
-                    },
-                    "layer": 0,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "loopVertical": 0,
-                    "loopHorizontal": 0,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "CBE34A264319A44B4C1BCEA52F546E9A6F2F",
-                "indent": 0
-            },
-            {
-                "id": "vn.Choice",
-                "params": {
-                    "action": {
-                        "type": 3,
-                        "bindValue": 0,
-                        "bindValueVariable": {
-                            "scope": 0,
-                            "index": 0
-                        },
-                        "commonEventId": 0,
-                        "label": "",
-                        "switch": {
-                            "scope": 1,
-                            "index": 0
-                        },
-                        "scene": {
-                            "uid": "F11C9C3C3F7D414D5259F0D37C814CC671F5",
-                            "name": "Scene 4"
-                        }
-                    },
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Ask questions to get know the ducklings better."
-                    },
-                    "label": "",
-                    "enabled": 1,
-                    "positionType": 1,
-                    "box": {
-                        "x": 570,
-                        "y": 169,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 697,
-                            "height": 133
-                        }
-                    },
-                    "defaultChoice": 0,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "uid": "08BA33E9406A0445974ABB27A46B730B2845",
-                "indent": 0
-            },
-            {
-                "id": "vn.Choice",
-                "params": {
-                    "action": {
-                        "type": 3,
-                        "bindValue": 0,
-                        "bindValueVariable": {
-                            "scope": 0,
-                            "index": 0
-                        },
-                        "commonEventId": 0,
-                        "label": "",
-                        "switch": {
-                            "scope": 1,
-                            "index": 0
-                        },
-                        "scene": {
-                            "uid": "369AE0414741C345E138E04636A751526E6E",
-                            "name": "Scene 5 Neutral Ending"
-                        }
-                    },
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Stay quiet and let the conversation flow naturally."
-                    },
-                    "label": "",
-                    "enabled": 1,
-                    "positionType": 1,
-                    "box": {
-                        "x": 569,
-                        "y": 323,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 698,
-                            "height": 135
-                        }
-                    },
-                    "defaultChoice": 0,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "uid": "FA5D22670FCF174D3C3967123E90A2AD1F7D",
-                "indent": 0
-            },
-            {
-                "id": "vn.ShowChoices",
-                "params": {},
-                "uid": "674E00F0344FF34C4E1BDF318340AF785A59",
-                "indent": 0
+                "uid": "87A2B32B596A524B7379A83279F5ED5474F0",
+                "indent": 0,
+                "expanded": false
             }
         ],
         "livePreviewDisabled": false,
